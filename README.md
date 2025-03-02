@@ -5,6 +5,13 @@ This project was created by the TSSAI (Trustworthy Secure and Safe Artificial In
 
 The package includes two parts: **Inference** and **Learn**.
 
-##Inference
+## Inference
+The ground truth inference (label aggregation or label integration) methods for crowdsourced annotation.
 
-##learn
+
+## learn
+Learn prediction models from the crowdsourced labeled data.
+
+## Other Useful Information
+- [Ceka]([https://](https://ceka.sourceforge.net/): An early Java version for Crowdsourcing Learning, also created by Professor Jing Zhang.
+- 

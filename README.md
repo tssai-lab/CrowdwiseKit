@@ -13,5 +13,5 @@ The ground truth inference (label aggregation or label integration) methods for 
 Learn prediction models from the crowdsourced labeled data.
 
 ## Other Useful Information
-- [Ceka]([https://](https://ceka.sourceforge.net/): An early Java version for Crowdsourcing Learning, also created by Professor Jing Zhang.
+- [Ceka](https://ceka.sourceforge.net/): An early Java version for Crowdsourcing Learning, also created by Professor Jing Zhang.
 - 

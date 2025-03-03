@@ -37,9 +37,16 @@ The ground truth inference (label aggregation or label integration) methods for 
 ## learn
 Learn prediction models from the crowdsourced labeled data. The part mainly focuses on end-to-end crowdsourcing learning models.
 
+- **CrowdLayer**:A novel general-purpose crowd layer to train deep neural networks end-to-end. Ref. "Deep Learning from Crowds. AAAI-2018."
+  
+- **CoNAL**:Crowdsourcing model by an end-to-end learning solution with two types of noise adaptation layers. Ref. "Learning from Crowds by Modeling Common Confusions. AAAI-2021."
+  
 - **CGNNAT**: An end-to-end crowdsourcing learning model using graph neural networks with an attention mechanism. Ref. " Learning from crowds using graph neural networks with attention mechanism. IEEE Transactions on Big Data. 2025."
-
+- **CCC**:Coupled Confusion Correction, where two models are simultaneously trained to correct the confusion matrices learned by each other. Via bi-level optimization, the confusion matrices learned by one model can be corrected by the distilled data from the other. Ref. "Coupled Confusion Correction: Learning from Crowds with Sparse Annotations. AAAI-2024."
+  
 - **MACLU**:  Multi-label active learning from crowds. Ref. " Multi-label active learning from crowds for secure IIoT. Ad Hoc Networks. 2021."
+  
+- **TAIDTM**:Estimating annotator- and instance-dependent transfer matrices via knowledge transfer to address the label noise problem when learning from crowdsourced data. Ref. "Transferring Annotator- and Instance-Dependent Transition Matrix for Learning From Crowds. IEEE Transactions on Pattern Analysis and Machine Intelligence. 2024"
 
 ## Incentive
 The incentive method for federated crowdsourcing.

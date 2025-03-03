@@ -28,6 +28,12 @@ The ground truth inference (label aggregation or label integration) methods for 
 	- **iBCC**: Independent Bayesian Classifier Combination (extended to multi-label scenario)
 	- **MCOC**: Multi-Class One-Coin model (extended to multi-label scenario)
 
+- **LFC**:Supervised learning with subjective labels provided by multiple annotators and evaluation of different experts to estimate the actual hidden labels. Ref. "Learning From Crowds. Journal of Machine Learning Research. 2010."
+
+- **EBCC**:An model is proposed to effectively model worker correlation in crowdsourced annotation by mixing mean field variational inference and intra-class reliability. Ref. "Exploiting worker correlation for label aggregation in crowdsourcing. International conference on machine learning. 2019."
+
+- **IWMV**:An Iterative Weighted Majority Voting method that theoretically optimizes the upper bound of the average error rate of weighted majority voting. Ref. "Error rate bounds and iterative weighted majority voting for crowdsourcing. arXiv:1411.4086. 2014."
+
 - **RY**: A classical truth inference model derived from the Dawid and Skene's model. Ref. "Learning from crowds. Journal of Machine Learning Research. 2010."
 
 - **Yan**: Ref. "Modeling annotator expertise: Learning when every body knows a bit of something. Proc. 13 Int. Conf. Artif. Intell. Stat., 2010."

@@ -46,7 +46,7 @@ Learn prediction models from the crowdsourced labeled data. The part mainly focu
   
 - **MACLU**:  Multi-label active learning from crowds. Ref. " Multi-label active learning from crowds for secure IIoT. Ad Hoc Networks. 2021."
   
-- **TAIDTM**:Estimating annotator- and instance-dependent transfer matrices via knowledge transfer to address the label noise problem when learning from crowdsourced data. Ref. "Transferring Annotator- and Instance-Dependent Transition Matrix for Learning From Crowds. IEEE Transactions on Pattern Analysis and Machine Intelligence. 2024"
+- **TAIDTM**:Estimating annotator- and instance-dependent transfer matrices via knowledge transfer to address the label noise problem when learning from crowdsourced data. Ref. "Transferring Annotator- and Instance-Dependent Transition Matrix for Learning From Crowds. IEEE Transactions on Pattern Analysis and Machine Intelligence. 2024."
 
 ## Incentive
 The incentive method for federated crowdsourcing.

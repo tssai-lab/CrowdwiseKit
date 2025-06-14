@@ -1,0 +1,1 @@
+The source code of the paper Learning from Crowds with Multiple Feature Dynamic Fusion-Based Annotation Generation submitted to TPAMI.

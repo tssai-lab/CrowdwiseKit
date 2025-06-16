@@ -15,8 +15,10 @@ pip install -r requirements.txt
 1. Create a `data` directory in the project root
 2. Place datasets in the `data` folder
 
-Preprocessed datasets are available at:  
+Preprocessed data sets can be downloaded on my homepage. 
 [GitHub Dataset Repository](https://github.com/stop-hand/dataset-about-crowdsouring)
+If you need details about data processing, please contact 
+zhengzhi@seu.edu.cn 
 
 ### Official Dataset Sources
 | Dataset  | Source |

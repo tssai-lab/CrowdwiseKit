@@ -18,7 +18,7 @@ pip install -r requirements.txt
 Preprocessed data sets can be downloaded on my homepage. 
 [GitHub Dataset Repository](https://github.com/stop-hand/dataset-about-crowdsouring)
 If you need details about data processing, please contact 
-zhengzhi@seu.edu.cn 
+zhengzhi@seu.edu.cn by email.
 
 ### Official Dataset Sources
 | Dataset  | Source |

@@ -1,0 +1,53 @@
+{
+  "paper": "StyleGCL-Net",
+  "text_path": {
+    "encoder": "Sentence-BERT all-mpnet-base-v2 in the paper; hashing encoder fallback in this repo",
+    "embedding_dim": 768,
+    "latent_dim": 64,
+    "attention_heads": 8,
+    "gat_layers": 2,
+    "gat_heads": 4,
+    "gat_hidden_dim": 128,
+    "temperature": 0.5,
+    "mask_prob": 0.1,
+    "content_weight": 1.0,
+    "orthogonal_weight": 0.1,
+    "consistency_weight": 0.5
+  },
+  "dataset_presets": {
+    "s4-dog": {
+      "tasks": 807,
+      "workers_in_table": 229,
+      "answers_per_task": 10,
+      "avg_words": 18.3
+    },
+    "trec": {
+      "tasks": 1200,
+      "workers": 380,
+      "answers_per_task": 5,
+      "avg_words": 42.7
+    },
+    "multitude": {
+      "languages": ["en", "zh", "es"],
+      "texts_per_language": 1000,
+      "avg_words_range": "70-90"
+    }
+  },
+  "llm_sources": [
+    "GPT-3.5-turbo",
+    "GPT-4",
+    "Gemma-2-2b-it",
+    "Phi-3.5-mini-Instruct",
+    "Mistral-7B-Instruct-v0.3",
+    "ERNIE-3.0",
+    "Qwen-7B-v1"
+  ],
+  "attack_scenarios": {
+    "S1": "basic_collusion",
+    "S2": "mixed_strategy",
+    "S3": "multi_source",
+    "S4": "adversarial_disguise",
+    "S5": "style_imitation",
+    "S6": "adaptive_attack"
+  }
+}

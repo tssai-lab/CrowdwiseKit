@@ -1,0 +1,20 @@
+{
+  "path": "baseline",
+  "method": "nkcd",
+  "metrics": {
+    "threshold": 0.8799999999999999,
+    "precision": 0.7142857142857143,
+    "recall": 0.5555555555555556,
+    "f1": 0.6250000000000001,
+    "accuracy": 0.8,
+    "auc_roc": 0.6798941798941799,
+    "fp_at_recall_0.8": 0.6190476190476191,
+    "tp": 5.0,
+    "fp": 2.0,
+    "fn": 4.0,
+    "tn": 19.0,
+    "nmi_binary": 0.0,
+    "ari_binary": 0.0
+  },
+  "num_workers": 30
+}
